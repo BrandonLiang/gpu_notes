@@ -1,0 +1,9 @@
+conda update -n base -c defaults conda
+
+sudo apt autoremove
+
+conda activate tf-gbu
+
+source activate coms4705
+
+conda deactivate
