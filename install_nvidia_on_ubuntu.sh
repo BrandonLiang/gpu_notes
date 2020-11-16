@@ -2,7 +2,7 @@
 
 # Add NVIDIA package repositories
 # Add HTTPS support for apt-key
-sudo apt-get install gnupg-curl
+#sudo apt-get install gnupg-curl
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_10.1.243-1_amd64.deb
 sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
 sudo dpkg -i cuda-repo-ubuntu1604_10.1.243-1_amd64.deb
